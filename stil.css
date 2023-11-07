@@ -1,0 +1,199 @@
+body{
+    padding-left:450px;
+	font-family: Arial;
+}
+
+/*__________prvi zadatak__________*/
+#zadatak1{
+    width: 600px;
+	text-align: justify;
+}
+#zadatak1 h1 {
+	font-size:40px;
+	font-family:Impact;
+	text-align: center;
+	text-transform: uppercase;
+    color: DarkSlateBlue;
+	border-style: solid dotted;
+}
+#r1, #r2, #r3, #r4:nth-child(2n){
+	background-color:LightBlue;
+	font-family:Impact;
+	color:SteelBlue;
+	text-transform: uppercase;
+}
+#zadatak1 em {
+    font-weight: bold;
+	color:SteelBlue;
+}
+#zadatak1 h1, #zadatak1 table {
+    width: 600px;
+}
+#zadatak1 table {
+    border-collapse: collapse;
+	text-align:center;
+}
+#zadatak1 th {
+    font-size: 25px;
+    font-weight: bold;
+    background-color: SteelBlue;
+    text-transform: uppercase;
+    color: LightBlue;
+    text-align: center;
+    height: 40px;
+	border: 2px solid DarkSlateBlue;
+}
+#zadatak1 td {
+    border: 2px solid DarkSlateBlue;
+}
+
+/*___________drugi zadatak___________*/
+#zadatak2 {
+    margin: 100px 0;
+    width: 600px;
+    height: 600px;
+}
+#zadatak2 table {
+    width: 300px;
+    height: 300px;
+    float: left;
+    box-sizing: border-box;
+}
+#zadatak2 h1,h2,h3 {
+    font-size:20px;
+	font-family:Arial;
+	font-style: italic;
+	text-align: center;
+	text-transform: uppercase;
+    color: SteelBlue;
+	border-bottom: 4px double currentColor;
+}
+/*prvavrsta*/
+#zuta {
+    background-color: Gold;
+    border-radius: 0px 100px 100px 100px;
+	border: 7px solid GoldenRod;
+}
+#ljubicasta {
+    background-color: Plum;
+    border-radius: 100px 0px 100px 100px;
+	border: 7px solid MediumOrchid;
+}
+#zelena {
+    background-color: LightGreen;
+    border-radius: 100px 100px 100px 0px;
+	border: 7px solid OliveDrab;
+}
+#crvena {
+    background-color: Tomato;
+    border-radius: 100px 100px 0px 100px;
+	border: 7px solid OrangeRed;
+}
+/*drugavrsta*/
+#crna {
+    background-color: black;
+    border-radius: 50%;
+	border: 7px solid black;
+}
+#narancasta {
+    background-color:Orange ;
+    border-radius: 50%;
+	border: 7px solid DarkOrange;
+}
+/*trecavrsta*/
+#plava {
+    background-color: MediumBlue;
+    border-radius: 60px 10px;
+	border: 7px solid Navy;
+}
+
+/*___________treci zadatak____________*/
+#zadatak3 {
+    width: 600px;
+	margin: 60px 0 1000px;
+	text-align: justify;
+}
+#zadatak3 h1 {
+    font-size:25px;
+	font-family:Impact;
+	text-align: center;
+	text-transform: uppercase;
+    color: SteelBlue;
+	border-style: solid dotted;
+}
+#zadatak3 h2{
+    font-size:20px;
+	font-family:Arial;
+	font-style: italic;
+	text-align: center;
+	text-transform: uppercase;
+    color: SteelBlue;
+	border-bottom: 4px double currentColor;
+}
+#zadatak3 ul {
+    list-style: none;
+	text-align: center;
+	padding-left:150px;
+}
+#zadatak3 li {
+    width: 300px;
+	margin:2px;
+    background-color: LightBlue;
+    border: 2px solid DarkSlateBlue;
+}
+#zadatak3 li a {
+    color: SteelBlue;
+    font-family: Calibri;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+#zadatak3 em {
+    font-size: 20px;
+    font-weight: bold;
+	color:DarkSlateBlue;
+}
+/*navigacija*/
+#zadatak3 li:first-child a:hover {
+	font-size: 23px;
+	color:BurlyWood;
+	background-color: OrangeRed;
+	text-decoration: underline;
+}
+#zadatak3 li:nth-child(2) a:hover {
+	font-size: 23px;
+    font-style: italic;
+	color: OrangeRed;
+	text-decoration: underline;
+}
+#zadatak3 li:nth-child(3) a:hover {
+	font-family: Cursive;
+    font-size: 23px;
+	color: Chocolate;
+    text-shadow: 3px 3px 2px BurlyWood;
+}
+#zadatak3 li:nth-child(4) a:hover {
+	font-family: Cursive;
+    font-size: 23px;
+	color: Chocolate;
+    text-shadow: 3px 3px 2px BurlyWood;
+}
+#zadatak3 li:nth-child(5) a:hover {
+	font-family: Cursive;
+    font-size: 23px;
+	color: Chocolate;
+    text-shadow: 3px 3px 2px BurlyWood;
+}
+#zadatak3 li:nth-child(6) a:hover {
+	font-family: Cursive;
+    font-size: 23px;
+	color: Chocolate;
+    text-shadow: 3px 3px 2px BurlyWood;
+}
+#zadatak3 li:nth-child(7) a:hover {
+	font-family: Cursive;
+    font-size: 23px;
+	color: Chocolate;
+    text-shadow: 3px 3px 2px BurlyWood;
+	
+}
